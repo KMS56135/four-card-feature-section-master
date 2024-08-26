@@ -715,12 +715,12 @@ body {
   margin-bottom: 1rem;
 }
 
-.mb-\[6px\] {
-  margin-bottom: 6px;
+.mb-\[2px\] {
+  margin-bottom: 2px;
 }
 
-.mb-\[76px\] {
-  margin-bottom: 76px;
+.mb-\[6px\] {
+  margin-bottom: 6px;
 }
 
 .mb-auto {
@@ -817,6 +817,10 @@ body {
   width: 24rem;
 }
 
+.w-\[1440px\] {
+  width: 1440px;
+}
+
 .w-full {
   width: 100%;
 }
@@ -837,7 +841,7 @@ body {
   max-width: 540px;
 }
 
-.max-w-desktop {
+.max-w-\[1440px\] {
   max-width: 1440px;
 }
 
@@ -1087,11 +1091,6 @@ body {
   padding-right: 2rem;
 }
 
-.px-\[32px\] {
-  padding-left: 32px;
-  padding-right: 32px;
-}
-
 .py-20 {
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -1100,6 +1099,11 @@ body {
 .py-\[85px\] {
   padding-top: 85px;
   padding-bottom: 85px;
+}
+
+.px-\[32px\] {
+  padding-left: 32px;
+  padding-right: 32px;
 }
 
 .pb-20 {
@@ -1270,16 +1274,12 @@ body {
     margin-right: 165px;
   }
 
-  .tablet\:mb-16 {
-    margin-bottom: 4rem;
+  .tablet\:mb-\[76px\] {
+    margin-bottom: 76px;
   }
 
   .tablet\:h-screen {
     height: 100vh;
-  }
-
-  .tablet\:max-w-desktop {
-    max-width: 1440px;
   }
 
   .tablet\:grid-cols-\[repeat\(3\2c minmax\(350px\2c 350px\)\)\] {
@@ -1294,9 +1294,9 @@ body {
     gap: 30px;
   }
 
-  .tablet\:py-20 {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+  .tablet\:px-\[32px\] {
+    padding-left: 32px;
+    padding-right: 32px;
   }
 
   .tablet\:text-4xl {
